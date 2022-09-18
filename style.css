@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1445px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+.nav_content{
+    border-bottom: 1px solid #828282;
+    margin: 0 170px 0 200px;
+    margin-bottom: 40px;
+}
+
+.nav_content ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 156px;
+    padding: 33px 0;
+    white-space: nowrap;
+    
+}
+
+.nav_content ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #828282;
+    transition: 0.35s linear;   
+    cursor: pointer; 
+}
+
+.nav_content ul li a:hover{
+    color: #070707;
+}
+
+.main_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 205px; */
+}
+
+.main_top h1{
+    font-size: 47px;
+    line-height: 59px;
+    letter-spacing: 0em;
+    color: #070707; 
+    margin-bottom: 30px;   
+    transform: translateX(205px);
+}
+
+.main_top .title{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #070707;
+    transform: translateY(10px);    
+}
+
+.main_top .language{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transform: translateX(-140px) rotate(-90deg);
+    transition: 0.3s linear;
+}
+
+.main_top .language .type_lang_ru:hover{
+    color: #000;
+}
+
+.main_top .language .type_lang_eng:hover{
+    color: #000;
+}
+
+.main_top .type_lang_ru{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #828282;
+    transition: 0,5s linear;
+    cursor: pointer;
+}
+
+.main_top .vertikal_border{
+    display: inline-block;
+    width: 2px;
+    height: 18px;
+    background-color: #000;
+    transform: translateY(2px);
+}
+
+.main_top .type_lang_eng{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #828282;   
+    transition: 0,5s linear; 
+    cursor: pointer;
+}
+
+.man_img{
+    margin: 0 200px;
+    margin-bottom: 105px;
+}
+
+.about_main{
+    background: #F6F6F6;
+}
+
+.about_content{
+    padding: 110px 0;
+    text-align: center;
+}
+
+.about_content h1{
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    margin-bottom: 18px;
+    color: #070707;    
+}
+
+.about_content p{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #070707;    
+}
+
+.skills_content{
+    padding: 100px 0;
+}
+
+.skills_content .skills_top{
+    text-align: center;
+}
+
+.skills_top h1{
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: #070707;
+    margin-bottom: 70px;    
+}
+
+.skills_top p{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #070707;
+    margin-bottom: 83px;    
+}
+
+.skills_rate{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.skills_rate .ir_img{
+    width: 90px;
+    height: 90px;
+}
+
+.skills_rate .ae_img{
+    width: 90px;
+    height: 90px;
+}
+
+.skills_rate li img{
+    margin-bottom: 24px;
+    transform: translateX(23px);
+}
+
+.skills_rate .fa_img{
+    transform: translateX(38px);
+    margin-bottom: 32px;
+}
+
+.skills_rate .figma_tipe{
+    margin-bottom: 48px;
+}
+
+.skills_rate li p{
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;    
+    text-align: center;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.port_article{
+    background-color: #F6F6F6;
+}
+
+.port_content{
+    padding-top: 112px;
+    padding-bottom: 45px;
+}
+
+.port_content h1{
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;    
+}
+
+.port_content .reebok_women{
+    display: flex;
+    transform: translateX(220px);
+    margin-bottom: 45px;    
+}
+
+.port_content .title_one{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #070707;
+    text-decoration: underline;    
+    margin-bottom: 100px;
+}
+
+.port_content .reebok_man{
+    transform: translateX(220px);
+    margin-bottom: 45px;
+}
+
+.port_content .title_two{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #070707;
+    text-decoration: underline;    
+    margin-bottom: 100px;
+}
+
+.port_content .reebok_camera{
+    transform: translateX(220px);
+    margin-bottom: 45px;
+}
+
+.port_content .title_third{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #070707;
+    text-decoration: underline;    
+    padding-bottom: 96px;
+}
+
+.foot_content{
+    padding: 120px 0;
+}
+
+.foot_content .foot_titles {
+    text-align: center;
+}
+
+.foot_content .foot_titles h1{
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 20px;    
+}
+
+.foot_content .foot_titles p{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 30px;    
+}
+
+.foot_content .foot_titles button{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #fff; 
+    background: #070707;
+    padding: 8px 28px 8px 28px;   
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+.foot_content .foot_icons ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 61px;
+    cursor: pointer;
+    margin-bottom: 46px;
+}
+
+.foot_content .foot_icons img{
+    width: 40px;
+    height: 40px;
+}
+
+.foot_content .foot_icons p{
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;   
+}
