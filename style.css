@@ -248,6 +248,7 @@ nav{
     color: #070707;
     text-decoration: underline;    
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 .port_content .reebok_man{
@@ -263,6 +264,7 @@ nav{
     color: #070707;
     text-decoration: underline;    
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 .port_content .reebok_camera{
@@ -278,6 +280,7 @@ nav{
     color: #070707;
     text-decoration: underline;    
     padding-bottom: 96px;
+    cursor: pointer;
 }
 
 .foot_content{
@@ -315,6 +318,7 @@ nav{
     padding: 8px 28px 8px 28px;   
     border-radius: 25px;
     margin-bottom: 80px;
+    cursor: pointer;
 }
 
 .foot_content .foot_icons ul{
