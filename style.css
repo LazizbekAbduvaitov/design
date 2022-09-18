@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -20,18 +21,6 @@ body::-webkit-scrollbar{
     width: 0;
 }
 
-nav{
-    background-color: #fff;
-    position: fixed;
-    z-index: 1;
-}
-
-.nav_content{
-    border-bottom: 1px solid #828282;
-    margin-left: 200px;
-    margin-right: 250px;
-}
-
 .nav_content ul{
     list-style: none;
     display: flex;
@@ -40,6 +29,12 @@ nav{
     padding: 33px 0;
     white-space: nowrap;
     
+}
+
+.border{
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin: 0 200px;
 }
 
 .nav_content ul li a{
@@ -85,7 +80,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 4px;
-    transform: translateX(-190px) rotate(-90deg);
+    transform: translateX(-168px) rotate(-90deg);
     transition: 0.3s linear;
 }
 

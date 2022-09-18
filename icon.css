@@ -23,6 +23,13 @@
     background-color: #E5E5E5;
 }
 
+.icon_in{
+    mask-image: url(./icon/linkedin.svg);
+    -webkit-mask-image: url(./icon/linkedin.svg);
+    width: 40px;
+    height: 40px;
+}
+
 .icon_insta{
     mask-image: url(./icon/insta.svg);
     -webkit-mask-image: url(./icon/insta.svg);
